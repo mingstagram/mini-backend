@@ -1,0 +1,5 @@
+package com.mini.apiGatewayServer.config;
+
+public class FilterConfig {
+
+}

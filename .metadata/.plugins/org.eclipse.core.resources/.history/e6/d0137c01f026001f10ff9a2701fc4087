@@ -1,0 +1,5 @@
+package com.mini.miniServer.mapper;
+
+public class BookmarkInfoMapper {
+
+}

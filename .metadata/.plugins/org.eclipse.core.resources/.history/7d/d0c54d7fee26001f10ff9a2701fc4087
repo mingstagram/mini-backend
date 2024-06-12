@@ -1,0 +1,42 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+      
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+       
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/mini?serverTimezone=Asia/Seoul
+    username: root
+    password: 1111
+      
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      
+mybatis:
+  mapper-locations:
+  - mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+#  security:
+#    user:
+#      name: test
+#      password: 1234   
+
+#logging:
+#  level:
+#    org.springframework: DEBUG
+    
+file:
+  path: C:/src/springbootwork-sts/upload/

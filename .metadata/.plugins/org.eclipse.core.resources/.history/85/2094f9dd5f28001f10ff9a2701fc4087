@@ -1,0 +1,5 @@
+package com.mini.miniSecondServer.controller;
+
+public class CommonController {
+
+}
